@@ -1,13 +1,739 @@
 @media screen and (max-width: 1199px)
-	.case
-		width: 950px
+	img
+		max-width: 100%
+
+	.header
+	.logo
+		&__text
+			display: none
+
+	.nav
+		&__item
+			margin-left: 20px
+
+	.welcome
+		padding-top: 30px
+		padding-bottom: 30px
+		&__icon
+			img
+				margin-left: 0
+		&__title
+			font-size: 38px
+			line-height: normal
+			margin-bottom: 20px
+			span
+				&.font-small
+					font-size: 38px
+		&__text
+			margin-bottom: 20px
+			
+			
+			
+	.features
+		margin-top: 30px
+		margin-bottom: 30px
+		&__title
+			margin-bottom: 35px
+		&_bots
+			.features
+				&__title
+					text-align: center
+				&__text
+					line-height: normal
+
+				&__content
+					padding-top: 0
+					
+
+				
+	.advantages
+		padding-top: 25px
+		padding-bottom: 45px
+		&__title
+			margin-bottom: 25px
+
+		&__icon
+			img
+				margin-left: 0
+
+		&__wrap
+			&_slider
+				.slick-arrow
+					transform: translate(0, -50%) scale(0.6)
+					top: -80px
+					&:hover
+						transform: translate(0, -50%) scale(0.4)
+				.row
+					margin-left: 10px
+					margin-right: 10px
+		&__input + .btn
+			margin-left: 0
+			margin-top: 10px
+				
+
+	.advantages__wrap_slider
+		.slick-arrow
+			top: 50%
+			border-color: #ffca29
+		.slick-prev
+			background-image: url('../../img/arrow-left-yellow-min.png')
+		.slick-next
+			background-image: url('../../img/arrow-right-yellow-min.png')
+
+	.advantages__img
+		img
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 20px
+
+	.capabilities
+		padding-top: 30px
+		padding-bottom: 10px
+		&__title
+			margin-bottom: 0
+		&__content
+			margin-bottom: 35px
+			p
+				max-width: 100%
+				margin-bottom: 10px
+		&__item
+			margin-bottom: 30px
+			
+	.discount
+		padding-top: 30px
+		padding-bottom: 30px
+		&__title
+			max-width: 100%
+			margin-bottom: 20px
+			br
+				display: none
+		&__desc
+			br
+				display: none
+			
+		&__text
+			margin-bottom: 25px
+
+		&__elements
+			margin-bottom: 20px
+			
+			
+		&__policy, &__btn
+			display: block
+			margin-left: auto
+			margin-right: auto
+
+		&__policy
+			margin-bottom: 20px
+			max-width: 100%
+			text-align: center
+			br
+				display: none
+			
+
+	.price
+		padding-top: 25px
+		padding-bottom: 45px
+		&__title
+
+			margin-bottom: 30px
+
+		&__item
+			margin-left: 0
+			margin-right: 0
+			
+
+	.relevance
+		padding-top: 30px
+		padding-bottom: 30px
+		&__title
+			font-size: 42px
+			text-align: center
+			margin-bottom: 20px
+		&__icon
+			img
+				margin-left: auto
+				margin-right: auto
+
+		&__content
+			line-height: 26px
+			p
+				br
+					display: none
+			
+
+	.applications
+		padding-top: 30px
+		padding-bottom: 5px
+		&__title
+			margin-bottom: 35px
+		&__icon
+			margin-bottom: 12px
+		&__item
+			margin-bottom: 25px
+			
+		&__text
+			line-height: normal
+			
+	.bots
+		padding-top: 30px
+		padding-bottom: 10px
+		&__title
+			margin-bottom: 25px
+
+		&__item
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 30px
+			
+	.footer
+		padding-top: 30px
+		padding-bottom: 30px
+		&__data
+			padding-top: 0
+		&__email, &__phone
+			display: block
+			margin-left: auto
+			margin-right: auto
+
+		&__email
+			margin-bottom: 12px
+			
+	.competitor
+		padding-top: 30px
+		padding-bottom: 0px
+		&__title
+			margin-bottom: 20px
+		&__item
+			min-height: 460px
+			margin-left: 0
+			margin-right: 0
+			margin-bottom: 30px
+			
+	.features__bg
+		height: 184px
+
+@media screen and (max-width: 992px)
+	.header
+		&__nav
+			padding-top: 0
+		&__auth
+			margin-top: 7px
+			
+			
+	.hidden-sm
+		display: none
+	.welcome
+		&__title
+			&_pt-more
+				padding-top: 0
+			
+		&__icon
+			margin-bottom: 20px
+			img
+				max-height: 350px
+				margin-left: auto
+				margin-right: auto
+		&__btns
+
+		&__btn
+			display: block
+			max-width: 280px
+			padding-right: 17px
+			margin-left: auto
+			margin-right: auto
+			&:nth-of-type(1)
+				margin-right: auto
+				margin-bottom: 10px
+			span
+				font-size: 16px
+			
+			
+	.features
+		margin-bottom: 15px
+				
+		&__icon
+			margin-bottom: 10px
+			
+		&__item
+			margin-bottom: 25px
+			
+		&__text
+			font-size: 16px
+			line-height: normal
+		&_bots
+			.features
+				&__content
+					margin-bottom: 30px
+					p
+						max-width: 100%
+						margin-bottom: 15px
+						line-height: normal
+					
+	
+	.advantages, .capabilities
+		&__title
+			text-align: center
+	
+
+	.capabilities
+		&__icon
+			line-height: 112px
+			margin-bottom: 5px
+		&__item
+			margin-bottom: 20px
+			
+	.discount
+		&__title, &__desc
+			text-align: center
 
 
-@media screen and (max-width: 970px)
-	.case
-		width: 750px
+	.price
+		padding-bottom: 0
+		&__item
+			margin-bottom: 30px
+			max-width: 300px
+			margin-left: auto
+			margin-right: auto
+			&:last-of-type
+				// margin-bottom: 0
+			
+			
+	.bot-order
+		padding-top: 30px
+		padding-bottom: 10px
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+			
+	.relevance
+		&__title
+			text-align: center
+			
+		&__icon
+			margin-bottom: 15px
+			img
+				max-height: 250px
+		&__content
+			line-height: normal
+			padding-left: 15px
+			padding-right: 15px
+			p
+				margin-bottom: 15px
+				&.font-big
+					font-size: 16px
+					font-weight: normal
+			
+	.bots
+		&__item
+			max-width: 300px
 
+	.competitor
+		&__item
+			min-height: 1px
+			padding-bottom: 20px
+			br
+				display: none
+			
+			
+
+	.footer
+		text-align: center
+		&__address, &__copy
+			line-height: normal
+			
+		&__data
+			margin-top: 13px
+			margin-bottom: 15px
+
+		&__address
+			br
+				display: none
+			
+	.features
+		&__subtitle
+			text-align: center
+			font-size: 22px
+			margin-bottom: 5px
+		&__form
+
+			.element
+				&_input
+					width: 50%
+				&_btn
+					padding-left: 0
+					padding-top: 15px
+					width: 100%
+					.btn
+						margin-left: auto
+						margin-right: auto
+		&__elements
+			font-size: 0
+			margin-bottom: 10px
+
+	.welcome__btns_mt
+		margin-top: 0
+
+	.contrast
+		padding-top: 30px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 25px
+			
 
 @media screen and (max-width: 767px)
-	.case
+	.hidden-xs
+		display: none
+	.show-xs
+		display: block
+	.title
+		font-size: 26px
+		text-align: center
+	.header
+		padding-top: 7px
+		padding-bottom: 7px
+		-webkit-transform: none
+		&__auth
+			margin-left: auto
+			margin-right: auto
+			display: block
+			padding-top: 9px
+			padding-bottom: 11px
+			max-width: 220px
+	.bg-mobile
+		opacity: 0
+		z-index: -10
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		background-color: rgba(110,91,147,.8)
+		transition: .5s
+		&_toggle
+			z-index: 9
+			opacity: 1
+	.nav
+		z-index: 2
+		position: fixed
+		top: 58px
+		left: 2.5%
+		width: 95%
+		height: calc(95% - 58px)
+		background-color: #fff
+		display: block
+		text-align: left
+		transition: .5s
+		transform: translateY(-120%)
+		border-radius: 0 0 10px 10px
+		&_toggle
+			transform: translateX(0px)
+		&__list
+			display: block
+			
+		&__item
+			margin-left: 0
+			margin-right: 0
+			margin-bottom: 13px
+			&_selected, &:hover
+				.nav
+					&__link
+						color: #ffca29
+		&__link, &__sublink
+			color: #000
+	
+		&__item, &__subitem
+			display: block
+			text-align: center
+			
+		&__list, &__sublist
+			text-align: center
+			
+			
+		&__sublist
+			display: block
+			position: relative
+			top: 0
+			left: 0
+			right: 0
+			width: auto
+			opacity: 1
+			transform: none
+			box-shadow: none
+			padding: 0
+			margin-top: 10px
+			background: none
+
+		&__subitem
+			&:hover
+				.nav
+					&__sublink
+						color: #ffca29
+						background: none
+			
+		&__sublink
+			padding: 3px 0
+			
+
+		&__sublink
+			
+
+			
+			
+		
+		
+	.logo
+		&__icon
+			img
+				max-height: 45px
+			
+	.mobile-btn
+		z-index: 12
+		width: 35px
+		margin-left: auto
+		margin-top: 13px
+		cursor: pointer
+		span
+			position: relative
+			display: block
+			height: 3px
+			margin-bottom: 6px
+			background-color: #2281d6
+			transition: .3s
+			&:last-of-type
+				margin-bottom: 0
+		&_toggle
+			span
+				&:nth-of-type(1)
+					top: 9px
+					transform: rotate(45deg)
+				&:nth-of-type(2)
+					opacity: 0
+				&:nth-of-type(3)
+					top: -9px
+					transform: rotate(-45deg)
+
+	.main
+		padding-top: 61px
+
+
+	.welcome
+		padding-top: 20px
+		padding-bottom: 20px
+		background: #735E9B
+		&__title
+			font-size: 26px
+			margin-bottom: 15px
+			span
+				&.font-small
+					font-size: 26px
+				&.text-block
+					display: inline
+		&__text
+			font-size: 16px
+			line-height: normal
+			
+		&__quote
+			font-size: 16px
+			line-height: normal
+
+	.features
+		margin-bottom: 0
+		&_bots
+			.features
+				&__title
+					margin-bottom: 20px
+				&__content
+					font-size: 16px
+					
+					
+
+	.advantages
+		padding-bottom: 25px
+		&__title
+			&_slider
+				padding-left: 45px
+				padding-right: 45px
+		&__list
+			margin-left: 0
+			padding-left: 35px
+			li
+				margin-bottom: 20px
+				&:before
+					// display: none
+				&:after
+					left: 35px
+		&__wrap
+			&_slider
+				.advantages
+					&__title
+						
+					&__list
+						padding-left: 0
+						
+						
+
+				.slick-arrow
+					top: -40px
+
+				.slick-prev
+					left: -25px
+
+				.slick-next
+					right: -25px
+	
+	.advantages__wrap_slider .advantages__list
+		padding-left: 17px
+	.advantages__form
+		margin-right: 0
+		margin-top: 30px
+	.advantages__input
+		margin-bottom: 15px
+	.advantages__input + .btn
+		top: -7px
+	.capabilities
+		&__content
+			font-size: 16px
+			line-height: normal
+
+
+	.discount
+		&__title
+			font-size: 26px
+			line-height: normal
+		&__desc
+			font-size: 16px
+			line-height: normal
+
+	.element
 		width: 100%
+		margin-bottom: 15px
+		&:nth-of-type(even)
+			padding-left: 0
+		&:nth-of-type(odd)
+			padding-right: 0
+		&:last-of-type
+			margin-bottom: 0
+
+	.input
+		input
+			height: 42px
+			padding-left: 15px
+			padding-right: 15px
+			font-size: 16px
+		&_big
+			input
+				font-size: 16px
+	.bot-order
+		&__title
+			font-size: 26px
+			text-align: center
+		&__text
+			font-size: 16px
+			line-height: normal
+			
+			
+	.footer
+		font-size: 16px
+
+	.popup
+		&_policy
+			.popup
+				&__title
+					font-size: 24px
+		&_reg
+			.popup
+				&__left, &__right
+					float: none
+					width: 100%
+					padding-left: 0 !important
+					padding-right: 0 !important
+				&__elem
+					&_show
+						display: none
+					&_hidden
+						display: block
+					
+				&__mobile-hidden
+					display: none
+					
+				&__right
+					&_hidden-mobile
+						display: none
+				&__desc
+					&_small
+						display: block
+					&_big
+						display: none
+				&__show
+					display: block
+
+				&__captcha
+					text-align: center
+					.g-recaptcha
+						margin-left: auto
+						margin-right: auto
+						width: 304px
+					
+					
+					
+	.platforma
+		padding-top: 30px
+		padding-bottom: 25px
+		&__title
+			margin-bottom: 25px
+		&__desc
+			font-size: 16px
+			margin-top: 0
+			
+			
+	.competitor
+		&__item
+			padding: 15px 20px
+		&__subtitle
+			font-size: 20px
+			line-height: normal
+			margin-bottom: 10px
+		&__text
+			font-size: 16px
+			line-height: normal
+			
+				
+	.features
+		&__form
+			.element
+				&_input
+					width: 100%
+				&_btn
+					padding-top: 0
+					.btn
+						max-width: 280px
+						width: 100%
+
+	.contrast
+		padding-bottom: 15px
+		&__text
+			font-size: 16px
+			line-height: normal
+			max-width: 100%
+			margin-bottom: 15px
+			
+		&__list
+			padding-left: 25px
+			li
+				margin-bottom: 20px
+
+	.popup
+		&_reg
+			padding: 20px 10px 30px
+			.popup
+				&__title
+					font-size: 26px
+					margin-bottom: 20px
+					
+				&__policy
+					max-width: 255px
+					text-align: left
+					
+			

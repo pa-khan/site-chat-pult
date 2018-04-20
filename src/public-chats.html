@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header__logo logo col-lg-4 col-sm-2 col-xs-7">
+					<div class="logo__icon"><img src="upload/logo-min.png" alt=""></div>
+					<div class="logo__text">Конструктор-разработчик <br>чатов и ботов <br>для Viber и Telegram</div>
+				</div>
+				<div class="header__mobile-btn hidden show-xs col-xs-5">
+					<div class="mobile-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="header__nav nav col-lg-8 col-sm-10 col-xs-5 hidden-xs">
+					<ul class="nav__list">
+						<li class="nav__item nav__item_selected"><a href="" class="nav__link">Боты для бизнеса</a></li>
+						<li class="nav__item"><a href="" class="nav__link">Viber боты </a></li>
+						<li class="nav__item">
+							<a href="" class="nav__link">Публичные чаты</a>
+							<ul class="nav__sublist">
+								<li class="nav__subitem"><a href="" class="nav__sublink">Telegram</a></li>
+								<li class="nav__subitem"><a href="" class="nav__sublink">Facebook</a></li>
+								<li class="nav__subitem"><a href="" class="nav__sublink">Instagram</a></li>
+								<li class="nav__subitem"><a href="" class="nav__sublink">ВКонтакте</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+					</ul>
+					<a data-fancybox data-src="#popup-reg" href="javascript:;" class="header__auth btn btn_yellow btn_small btn_shadow-yellow">Вход / Регистрация</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="welcome bg">
+			<div class="container">
+				<div class="row">
+					<div class="welcome__icon welcome__icon_ml0 col-md-5 col-sm-12"><img src="upload/phones.png" alt=""></div>
+					<div class="welcome__content col-md-7 col-sm-12">
+						<div class="welcome__title welcome__title_pt-more"><span class="color-yellow font-small text-block">Публичные чаты</span> для общения с клиентом</div>
+						<div class="welcome__text welcome__text_590">Публичный чат - это удобная платформа для общения с клиентом на его территории. Привлекайте людей в сообщестов вашего бренда, делайте рассылки, устраивайте конкурсы и проводите акции. Рассылка по сообществу бесплатна. К чату подключается бот.</div>
+						<div class="welcome__btns welcome__btns_mt">
+							<a href="" class="welcome__btn btn btn_yellow"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.5 68.75" height="33" width="35" xml:space="preserve" version="1.1" class="icon icon-viber"><metadata   id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type   rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs   id="defs6" /><g   transform="matrix(1.25,0,0,-1.25,0,68.75)"   id="g10"><g  transform="scale(0.1,0.1)"  id="g12"><path id="path14" style="fill:#735e9a;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 531.469,281.293 c 0,-142.969 -116.785,-258.8633 -260.875,-258.8633 -45.746,0 -88.719,11.6953 -126.106,32.2109 L 0.0546875,8.74609 47.1484,147.633 c -23.7578,39.004 -37.43746,84.754 -37.43746,133.66 0,142.969 116.80106,258.863 260.88306,258.863 144.101,0 260.875,-115.894 260.875,-258.863 z M 270.594,498.93 c -120.949,0 -219.3323,-97.633 -219.3323,-217.637 0,-47.621 15.5235,-91.719 41.7813,-127.598 L 65.6406,72.8672 149.926,99.6523 c 34.633,-22.7343 76.117,-35.9921 120.676,-35.9921 120.929,0 219.328,97.6168 219.328,217.6208 0,120.004 -98.391,217.649 -219.336,217.649 z M 402.332,221.676 c -1.613,2.637 -5.867,4.234 -12.258,7.402 -6.402,3.172 -37.847,18.531 -43.695,20.637 -5.863,2.113 -10.137,3.176 -14.399,-3.168 -4.253,-6.356 -16.511,-20.637 -20.25,-24.871 -3.73,-4.246 -7.457,-4.781 -13.859,-1.602 -6.387,3.172 -26.988,9.879 -51.418,31.489 -19.004,16.82 -31.84,37.578 -35.574,43.933 -3.727,6.352 -0.391,9.781 2.805,12.938 2.879,2.851 6.402,7.414 9.597,11.117 3.207,3.707 4.266,6.344 6.383,10.586 2.149,4.234 1.074,7.937 -0.527,11.113 -1.59,3.176 -14.395,34.398 -19.719,47.105 -5.328,12.696 -10.648,10.583 -14.387,10.583 -3.722,0 -7.992,0.531 -12.254,0.531 -4.269,0 -11.195,-1.586 -17.058,-7.934 -5.86,-6.355 -22.375,-21.707 -22.375,-52.926 0,-31.222 22.906,-61.386 26.109,-65.617 3.192,-4.23 44.227,-70.379 109.238,-95.789 65.016,-25.398 65.016,-16.926 76.739,-15.859 11.715,1.054 37.824,15.344 43.172,30.152 5.316,14.828 5.316,27.531 3.73,30.18" /></g></g></svg><span>Паблик чат в Viber</span></a>
+							<a href="" class="welcome__btn btn btn_yellow"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.5 52.5" height="30" width="26" xml:space="preserve" version="1.1" class="icon icon-telegram"><metadata   id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type   rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs   id="defs6" /><g   transform="matrix(1.25,0,0,-1.25,0,52.5)"   id="g10"><g  transform="scale(0.1,0.1)"  id="g12"><path id="path14" style="fill:#735e9a;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 459.918,409.879 17.4258,237.441 C 3.09375,231.855 3.96094,211.289 18.7148,206.938 L 131.156,173.73 173.121,40.5781 c 4.383,-13.9062 22.012,-18.1211 32.215,-7.707 L 263.469,92.2344 377.535,8.50391 c 13.961,-10.2461 33.84,-2.63282 37.383,14.31639 l 75.547,361.1837 c 3.703,17.695 -13.703,32.437 -30.547,25.875 z m -55.48,-80.16 -205.532,-181.754 c -2.047,-1.813 -3.351,-4.32 -3.656,-7.035 l -7.914,-70.3441 c -0.258,-2.2968 -3.469,-2.5976 -4.156,-0.3945 L 150.625,175.102 c -1.488,4.8 0.453,10.003 4.727,12.652 l 242.714,150.539 c 5.582,3.457 11.297,-4.227 6.372,-8.574" /></g></g></svg><span>Telegram канал</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="capabilities">
+			<div class="container">
+				<div class="capabilities__title title">Что такое публичный чат</div>
+				<div class="capabilities__wrap">
+					<div class="row">
+						<div class="capabilities__content capabilities__content_pt col-lg-4">
+							<p>Публичный чат — это канал связи бренда, компании с целевой аудиторией. Именно к нему подлючается бот.</p>
+							<p>Чтобы пригласить клиентов, ChatPult предлагает рассылку в Viber по собранной вами базе клиентов.</p>
+						</div>
+						<div class="capabilities__list col-lg-8">
+							<div class="row">
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Rassilka.svg" alt=""></div>
+									<div class="capabilities__text">Массовая рассылка подпичикам</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Chat.svg" alt=""></div>
+									<div class="capabilities__text">Приватный чат <br>с пользователем</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Bot.svg" alt=""></div>
+									<div class="capabilities__text">Использование ботов в чате</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Hello.svg" alt=""></div>
+									<div class="capabilities__text">Автосообщения при входе в паблик</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Oformlenie.svg" alt=""></div>
+									<div class="capabilities__text">Фирменное оформление чата</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/Brend.svg" alt=""></div>
+									<div class="capabilities__text">Брендированный контент</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/new-chanel.svg" alt=""></div>
+									<div class="capabilities__text">Новый канал маркетинга</div>
+								</div>
+								<div class="capabilities__item col-sm-3">
+									<div class="capabilities__icon"><img src="upload/icons/svg/pig.svg" alt=""></div>
+									<div class="capabilities__text">Дешевая рассылка приглашений</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contrast bg">
+			<div class="container">
+				<div class="contrast__title title">Отличие от чатов на сайтах</div>
+				<div class="contrast__data">
+					<div class="row">
+						<div class="col-sm-5">
+						<div class="contrast__text">Компания ChatPult помогает регистрировать публичные аккаунты и чаты в популярных мессенджерах. Наше решение выгодно отличается от привычных чатах на сайтах:</div>
+						</div>
+						<div class="col-sm-7">
+							<div class="contrast__list">
+								<ul>
+									<li>Работываем ботов для любых платформ</li>
+									<li>Можем написать эксклюзивный модуль. <br>Это дешевле, чем создание полнофункционального бота</li>
+									<li>Выгодная стоимость и быстрые сроки исполнения заказа</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="competitor">
+			<div class="container">
+				<div class="competitor__title title">Дополнительные возможности паблик чатов:</div>
+				<div class="competitor__list">
+					<div class="row">
+						<div class="competitor__col col-md-4">
+							<div class="competitor__item competitor__item_small">
+								<div class="competitor__subtitle">Брендированный контент</div>
+								<div class="competitor__text">Создавайте фирменные стикеры для подписчиков. Увеличивайте узнаваемость бренда и привлекайте новую целевую аудиторию.</div>
+							</div>
+						</div>
+						<div class="competitor__col col-md-4">
+							<div class="competitor__item competitor__item_small">
+								<div class="competitor__subtitle">Бот подключенный к каналу</div>
+								<div class="competitor__text">Используйте ботов для общения и ответов на запросы пользователей. Работайте с аудиторией 24/7, без лишних затрат.</div>
+							</div>
+						</div>
+						<div class="competitor__col col-md-4">
+							<div class="competitor__item competitor__item_small">
+								<div class="competitor__subtitle">Маркетинговые исследования</div>
+								<div class="competitor__text">Платформа передает вам статистику по подписчикам и взамодействиям с чатом и ботами. Узнайте свою целевую аудиторию лучше.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="discount bg">
+			<div class="container">
+				<div class="row">
+					<div class="discount__text col-md-6">
+						<div class="discount__title">Зарегистрировать свой публичный чат</div>
+						<div class="discount__desc">Мы поможем вам выбрать канал для публичного чата <br>и зарегистрировать его.</div>
+					</div>
+					<div class="discount__form col-md-6">
+						<div class="discount__elements elements">
+							<div class="discount__element element">
+								<div class="element__text"><label for="discount-one-name">Ваше имя</label></div>
+								<div class="element__input">
+									<div class="input input_default input_big"><input type="text" id="discount-one-name"></div>
+								</div>
+							</div>
+							<div class="discount__element element">
+								<div class="element__text"><label for="discount-one-phone">Контактный телефон</label></div>
+								<div class="element__input">
+									<div class="input input_default input_tel"><input type="text" placeholder="+7 (987) 654-32-10" id="discount-one-phone"></div>
+								</div>
+							</div>
+						</div>
+						<div class="discount__policy">Заполняя форму я соглашаюсь <br>с <a data-fancybox data-src="#popup-policy" href="javascript:;">политикой обработки</a> персональных данных.</div>
+						<button class="discount__btn btn btn_yellow btn_shadow-black">Отправить заявку</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bots">
+			<div class="container">
+				<div class="bots__title title">Среды для создания паблик чатов</div>
+				<div class="bots__list">
+					<div class="row">
+						<div class="bots__col col-md-4">
+							<div class="bots__item">
+								<div class="bots__icon"><img src="upload/icons/png/vk.png" alt=""></div>
+								<div class="bots__data bots__data_small">Возможно создание канала <br>бренда и подключение бота. <br>50 миллионов человек в мире <br>подписаны на каналы.</div>
+								<a class="bots__btn btn btn_yellow btn_shadow-yellow">Узнать подробнее</a>
+							</div>
+						</div>
+						<div class="bots__col col-md-4">
+							<div class="bots__item">
+								<div class="bots__icon"><img src="upload/icons/png/tg.png" alt=""></div>
+								<div class="bots__data">Создание публичного <br>аккаунта бренда. Возможно <br>подключение ботов, брендинг <br>канала и т.д.</div>
+								<a class="bots__btn btn btn_yellow btn_shadow-yellow">Узнать подробнее</a>
+							</div>
+						</div>
+						<div class="bots__col col-md-4">
+							<div class="bots__item">
+								<div class="bots__icon"><img src="upload/icons/png/vb.png" alt=""></div>
+								<div class="bots__data bots__data_small">Публичные аккаунты <br>и страницысообщетва VK. <br>Поддерживают ботов, брендинг <br>и т.д.</div>
+								<a class="bots__btn btn btn_yellow btn_shadow-yellow">Узнать подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer bg">
+		<div class="container">
+			<div class="row">
+				<div class="footer__copy col-md-3">ChatPult — разработка ботов для Viber и Telegram</div>
+				<div class="footer__data col-md-5">
+					<div class="footer__email"><a href="mailto:hello@chatpult.ru">hello@chatpult.ru</a></div>
+					<div class="footer__phone"><a href="tel:88003331650">8(800) 333-16-50</a></div>
+				</div>
+				<div class="footer__address col-md-4">Россия, 192102 <br>	Волковский пр. 32, офис 4-10</div>
+			</div>
+		</div>
+	</footer>
+	<div class="popup popup_reg" id="popup-reg">
+		<div class="popup__close"></div>
+		<div class="popup__title">Форма регистрации</div>
+		<div class="popup__wrap">
+			<div class="row row_m0">
+				<div class="popup__left col">
+					<div class="popup__input input input_error input_tel"><input type="text" placeholder="Телефон" value="+7 (987) 654-32-10"></div>
+					<div class="popup__input input input_successfull"><input type="text" placeholder="E-mail"></div>
+					<div class="popup__input input"><input type="text" placeholder="Имя и фамилия"></div>
+					<div class="popup__elem popup__elem_hidden hidden">
+						<div class="popup__desc popup__desc_small">Логин и пароль сгенерируются автоматически</div>
+						<div class="popup__desc popup__desc_big">Оставьте пустыми для автоматической генерации логина и пароля.</div>
+						<div class="popup__show"><span>Создать логин и пароль самостоятельно</span>
+						</div>
+					</div>
+				</div>
+				<div class="popup__right popup__right_hidden-mobile col">
+					<div class="popup__input input"><input type="text" placeholder="Логин"></div>
+					<div class="popup__input input"><input type="text" placeholder="Пароль"></div>
+					<div class="popup__input input"><input type="text" placeholder="Повторить пароль"></div>
+				</div>
+			</div>
+			<div class="popup__elem popup__elem_show">
+				<div class="popup__desc popup__desc_small">Логин и пароль сгенерируются автоматически</div>
+				<div class="popup__desc popup__desc_big">Оставьте пустыми для автоматической генерации логина и пароля.</div>
+				<div class="popup__show"><span>Создать логин и пароль самостоятельно</span></div>
+			</div>
+			<div class="row row_m0">
+				<div class="popup__left col">
+					<div class="popup__captcha"><div class="g-recaptcha" data-sitekey="6LeXpDcUAAAAAK9ErhNiFgSFP7XjX7Cy8Ue8tm_X"></div></div>
+				</div>
+				<div class="popup__right col">
+					<button class="popup__btn btn btn_yellow">Регистрация</button>
+				</div>
+			</div>
+			<div class="row row_m0">
+				<div class="popup__col popup__col_full">
+					<div class="popup__policy">
+						<div class="policy"><input type="checkbox" id="popup-checkbox-policy"><label for="popup-checkbox-policy"><span>Я согласен с условиями обработки персональных данных.</span></label></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_policy" id="popup-policy">
+		<div class="popup__title">Политика конфиденциальности</div>
+		<div class="popup__text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quidem molestiae accusamus magni sed optio eos harum reiciendis iste. Sapiente id vitae quis facilis, eius atque provident reiciendis, rerum excepturi nisi cupiditate vel asperiores totam, sit molestias explicabo, expedita laudantium voluptatibus. Inventore suscipit voluptatibus ab veritatis consequatur, mollitia odio nulla culpa architecto similique quidem illo fugiat qui sed aperiam dolores ipsum eos sapiente nemo, reprehenderit doloremque vitae, nostrum ut! Numquam ipsum fugit quod rerum facilis velit, sunt amet tenetur voluptate cupiditate, odio ipsa, iste saepe. Sequi esse dolore eligendi unde, dolores, est et iste aliquam voluptas natus, exercitationem placeat in cum. Excepturi maiores, placeat, itaque saepe nihil non deserunt. Tenetur explicabo sunt ullam magnam. Inventore alias corporis similique iusto mollitia facere accusantium molestias reiciendis voluptate eum animi, excepturi, quae, consequatur esse. Cupiditate officia odit rerum alias sapiente fugiat, tempora repellat eum aperiam delectus, minus quod. Iusto necessitatibus, sequi repellat totam alias excepturi facere error! Dignissimos maxime cupiditate voluptatem quisquam doloribus nihil voluptatibus quasi veritatis dolores dicta tenetur, distinctio quo nostrum obcaecati magni sunt ullam nesciunt minima quos ut nobis quia. Sapiente porro cupiditate quisquam distinctio, dolorum! Itaque iusto temporibus quod culpa, ducimus debitis, error asperiores, inventore alias consequuntur eligendi est pariatur repudiandae deleniti molestias similique quo fugiat dolores minima. Vero alias vitae veniam culpa architecto! Assumenda aperiam, nulla, magnam impedit libero architecto cupiditate incidunt, consectetur, quaerat corporis tenetur beatae modi saepe porro quae consequatur accusantium excepturi. Dolore, iste maxime facere laudantium amet exercitationem. Accusamus quaerat doloremque recusandae porro ea quae, delectus praesentium nostrum officiis rerum voluptatem rem nobis expedita possimus tempora omnis error voluptatibus eos id deleniti explicabo aliquid? Quas mollitia repudiandae quidem maiores sapiente nihil ullam excepturi officiis corporis pariatur, repellendus, cupiditate porro voluptatum. Sapiente autem aspernatur animi suscipit, in illo accusantium iste, temporibus rerum possimus quo dolores porro eaque earum ipsa ratione nam, nisi, laudantium voluptas. Harum quibusdam aliquam mollitia, voluptatum repellat hic impedit. Quos ab vero ipsa nulla at rem sequi ipsum tempore et accusamus, quam atque quibusdam dolorum similique vel magni est corporis commodi quisquam architecto ut, voluptate facere molestiae. Maiores nisi enim nihil unde obcaecati accusantium tempore quidem corporis, dicta vel ut delectus voluptate incidunt, molestiae aliquid sunt a sapiente ratione consectetur voluptas, omnis facilis reprehenderit, maxime repellendus tenetur. Qui pariatur consequuntur hic ea, expedita aspernatur itaque deleniti enim voluptatem praesentium dolorem, exercitationem ipsum sit. Eius unde, earum voluptatum consequuntur qui, asperiores enim harum deleniti culpa fugiat vero eos fugit suscipit dolorem! Eveniet qui laboriosam repudiandae. At ullam veniam dolorem impedit nisi culpa dicta voluptas quidem laboriosam quia minima nesciunt neque doloremque, molestias debitis necessitatibus omnis quibusdam nobis expedita quam aspernatur, suscipit maxime numquam. Beatae nam totam laudantium eius veritatis vel consequuntur ad libero sapiente nisi doloribus consectetur, labore voluptates harum distinctio aperiam similique eligendi numquam unde odio repellendus. Cumque minima recusandae maiores corporis, porro sequi architecto mollitia quisquam autem nesciunt alias nihil voluptates esse culpa hic animi quas molestias accusantium deserunt perferendis maxime, deleniti sit iure similique! Recusandae impedit dolorum doloribus provident sit repellat accusamus inventore tenetur blanditiis, praesentium quaerat laborum nulla a hic aspernatur voluptate ab ipsam dolore at nostrum voluptates tempore, necessitatibus et fugit delectus. Fugiat sit debitis impedit repellendus? Magnam accusantium ducimus quidem voluptatem labore magni cumque, quibusdam est rem optio aliquid porro illum sint laudantium cum nam excepturi, perspiciatis iste? Neque, nemo, ab dolorum tempore ipsam libero distinctio quis consequatur itaque quos cupiditate. Eum reprehenderit rerum dicta voluptates numquam, et animi sapiente sunt laborum pariatur ab esse consequatur, eaque vel nam eligendi in tempora, suscipit consequuntur quae error quibusdam nisi quasi recusandae. Quo harum accusamus molestiae neque veritatis, quos perferendis eaque nisi delectus, dolore aperiam ipsum maiores tempora voluptates, mollitia animi, aspernatur? Et perspiciatis impedit harum quam facere incidunt explicabo molestias quos magnam tempore. Suscipit dolorem architecto dicta doloremque dignissimos esse, quibusdam id aspernatur totam explicabo, animi voluptatem, asperiores cumque rem praesentium corrupti voluptas sint cupiditate beatae deserunt. Assumenda autem rem placeat doloribus amet, ab cupiditate eaque necessitatibus et ad tenetur reprehenderit aspernatur enim maxime ut, dolorum maiores! Magni, totam nulla cum! Provident minima cupiditate, vero! Voluptate repellat eveniet nulla explicabo atque deleniti aliquam, sit nisi. Magni quisquam iste error fugit laboriosam impedit, inventore eius repellendus, debitis amet delectus mollitia aspernatur possimus, neque explicabo ipsum recusandae ipsa aut molestias vero officia? Sapiente labore dolorum beatae officia vel tempora quis cupiditate perferendis. Quia rem similique id eum accusantium sit quidem, nostrum dolorum. Labore ea praesentium debitis, ullam, numquam ipsam adipisci nostrum tenetur. Tempora autem quia quam dolore facere, sed nobis odio eius. Beatae modi sit ipsum accusamus ullam quisquam animi, ea asperiores quos iusto architecto eligendi assumenda maxime laborum consequuntur quas voluptatem. Velit itaque nihil laboriosam reprehenderit, numquam fugiat quasi recusandae molestiae enim, dignissimos, vero beatae dolorum aspernatur ut facilis fugit deserunt similique corporis. Blanditiis eius dignissimos repellat harum magnam magni tenetur! Ducimus eius aliquam corrupti eligendi officia consequuntur aspernatur, necessitatibus fuga minus! Inventore, dignissimos. Tenetur necessitatibus, dolore voluptates neque iusto sapiente sed laudantium, repudiandae fugit. Facilis porro, et ipsum rem provident reprehenderit quaerat quae nemo, quasi perferendis commodi culpa aperiam consequuntur alias expedita iste cupiditate fuga iure cum harum molestiae molestias fugiat, a aspernatur praesentium. Magni aspernatur officia necessitatibus et odit consequuntur atque nostrum modi a consequatur, tenetur eaque laborum deleniti iusto harum, libero iste rem mollitia temporibus natus sint autem unde explicabo. Reiciendis nulla illo minima? Qui tempore, eius perspiciatis velit beatae illum placeat minima eaque molestias magni. Ratione excepturi nesciunt et, fuga eos tempora earum doloribus, numquam cumque molestias praesentium, nisi omnis fugit repellat, optio aliquid eaque! Ea odit eligendi sequi recusandae, quia nulla vitae dicta suscipit minima iure ab. Quod, natus! Neque doloribus quam suscipit necessitatibus perspiciatis error, inventore sint non fugit qui nesciunt totam excepturi possimus vero id repudiandae facere reprehenderit ea, sapiente assumenda at dolores voluptatibus similique aspernatur? Ab illo, dignissimos aut inventore hic? Ipsum non sapiente eos, similique possimus placeat pariatur deleniti hic dignissimos! Libero perferendis, perspiciatis earum neque, incidunt expedita non minus aliquid magni in possimus delectus modi asperiores fugit quis sed explicabo!
+		</div>
+	</div>
+	<div class="bg-mobile"></div>
+</body>
+</html>
