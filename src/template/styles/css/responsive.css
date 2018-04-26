@@ -300,7 +300,8 @@
       display: block;
       padding-top: 9px;
       padding-bottom: 11px;
-      max-width: 220px; }
+      max-width: 220px;
+      margin-top: 23px; }
   .bg-mobile {
     opacity: 0;
     z-index: -10;
@@ -338,11 +339,13 @@
           -ms-transform: translateX(0px);
               transform: translateX(0px); }
     .nav__list {
-      display: block; }
+      display: block;
+      margin-right: 0; }
     .nav__item {
       margin-left: 0;
       margin-right: 0;
-      margin-bottom: 13px; }
+      margin-bottom: 13px;
+      font-size: 24px; }
       .nav__item_selected .nav__link, .nav__item:hover .nav__link {
         color: #ffca29; }
     .nav__link, .nav__sublink {
